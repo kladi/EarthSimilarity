@@ -1,0 +1,100 @@
+.App {
+  text-align: center;
+  background-color: red;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  width: 50%;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.someBackground {
+  background-color: #282c34;
+  color: white;
+}
+
+.disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.hr50 {
+  width: 50%;
+}
+
+.hr75 {
+  width: 75%;
+}
+
+.input.inputField {
+  border: 0px;
+  background-color: #3E424B;
+}
+
+.inputField:focus + hr.style1 {
+	box-shadow: 0 2px 4px rgba(123, 123, 123, 0.5);
+}
+
+input.inputField.right-side {
+	/* FIXME input width should be computed using size attribute */
+	width: 50%;
+}
+
+.text-medium-16-600 {
+	font-size: 16px;
+	font-weight: 600;
+}
+
+.text-color-3 {
+	color: #999999;
+}
+
+.inputStyle {
+  color: white;
+  border: 0px;
+  background-color: #3E424B;
+  width: 30%;
+  text-align: center;
+}
+
+.btnStyle {
+  /* border: none;
+  border-radius: 10%; */
+  margin: 30px;
+  border-radius: 16px;
+}
+
+.countupStyle {
+  color: yellow;
+}
+
+table, th, td {
+  border: 1px solid black;
+  margin-bottom: 20px;
+}
